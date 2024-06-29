@@ -30,7 +30,6 @@ This project not only demonstrates proficiency in modern web development technol
 
 - NextJS
 - TypeScript
-- JavaScript
 - TailwindCSS
 - Responsive Layout
 
