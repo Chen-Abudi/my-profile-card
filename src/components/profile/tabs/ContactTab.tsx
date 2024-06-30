@@ -9,7 +9,10 @@ const ContactTab: React.FC = () => {
         please feel free to reach out to me. You can find me on various social
         media platforms, including GitHub, LinkedIn, and Medium. Additionally,
         you can email me at{" "}
-        {/* <a href="mailto:XXXXXXXXXXXXXXXXXXXXX">XXXXXXXXXXXXXXXXXXXXX</a>. */}
+        <a href="mailto:cheezumcali23@gmail.com" className="text-blue-900">
+          GMail
+        </a>
+        .
       </p>
     </div>
   );
