@@ -32,6 +32,7 @@ This project not only demonstrates proficiency in modern web development technol
 - TypeScript
 - TailwindCSS
 - Responsive Layout
-- Testing
+- Jest
+- Unit Tests
 
 ---
