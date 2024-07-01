@@ -8,6 +8,7 @@
   - [📣 Overview:](#-overview)
   - [🔎 Intro:](#-intro)
   - [🧰 Tech Stack:](#-tech-stack)
+  - [🏗️ Architecture Overview:](#️-architecture-overview)
 
 ---
 
@@ -37,3 +38,19 @@ This project not only demonstrates proficiency in modern web development technol
 - Unit Tests
 
 ---
+
+## 🏗️ Architecture Overview:
+
+```mermaid
+
+flowchart TD
+  A[HomePage] -->|imports| B[ProfileCard]
+  B -->|imports| C[Components]
+  C -->|imports| D[Tabs]
+  C -->|imports| E[Tabs]
+  C -->|imports| F[Tabs]
+  C -->|imports| G[Tabs]
+  C -->|imports| H[Common]
+  H -->|imports| I[TabButton]
+
+```
