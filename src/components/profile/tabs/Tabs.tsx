@@ -28,7 +28,7 @@ const Tabs: React.FC = () => {
 
   return (
     <div>
-      <div className="flex space-x-2 mb-4">
+      <div className="flex justify-center space-x-2 mb-4">
         {["About Me", "Experience", "Tech Stack", "Contact"].map((tab) => (
           <TabButton
             key={tab}
