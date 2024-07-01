@@ -1,7 +1,7 @@
 import React from "react";
 import { render, fireEvent } from "@testing-library/react";
 
-import TabButton from "../../common/TabButton";
+import TabButton from "@/common/TabButton";
 
 describe("TabButton", () => {
   it("renders correctly with active state", () => {
