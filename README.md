@@ -45,13 +45,14 @@ This project not only demonstrates proficiency in modern web development technol
 
 flowchart TD
   A[HomePage] -->|imports| B[ProfileCard]
-  B -->|imports| C[Tabs]
-  C -->|imports| D[AboutTab]
-  C -->|imports| E[ExperienceTab]
-  C -->|imports| F[TechStackTab]
-  C -->|imports| G[ContactTab]
-  B -->|imports| H[Common]
-  H -->|imports| I[TabButton]
+  B -->|imports| C[tabs]
+  C -->|imports| D[Tabs]
+  C -->|imports| E[AboutTab]
+  C -->|imports| F[ExperienceTab]
+  C -->|imports| G[TechStackTab]
+  C -->|imports| H[ContactTab]
+  B -->|imports| I[common]
+  H -->|imports| J[TabButton]
 
 ```
 
@@ -59,13 +60,13 @@ flowchart TD
 
 flowchart TD
 subgraph Others
-  subgraph App
+  subgraph app
     J[global.css]
     K[layout.tsx]
     L[page.tsx]
   end
 
-  subgraph Assets
+  subgraph assets
     M[Image]
   end
 
