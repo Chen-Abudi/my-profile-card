@@ -45,12 +45,34 @@ This project not only demonstrates proficiency in modern web development technol
 
 flowchart TD
   A[HomePage] -->|imports| B[ProfileCard]
-  B -->|imports| C[Components]
-  C -->|imports| D[Tabs]
-  C -->|imports| E[Tabs]
-  C -->|imports| F[Tabs]
-  C -->|imports| G[Tabs]
-  C -->|imports| H[Common]
+  B -->|imports| C[Tabs]
+  C -->|imports| D[AboutTab]
+  C -->|imports| E[ExperienceTab]
+  C -->|imports| F[TechStackTab]
+  C -->|imports| G[ContactTab]
+  B -->|imports| H[Common]
   H -->|imports| I[TabButton]
+
+```
+
+```mermaid
+
+flowchart TD
+subgraph Others
+  subgraph App
+    J[global.css]
+    K[layout.tsx]
+    L[page.tsx]
+  end
+
+  subgraph Assets
+    M[Image]
+  end
+
+  subgraph __tests__
+    N[TabButton.test.tsx]
+    O[Tabs.test.tsx]
+  end
+end
 
 ```
