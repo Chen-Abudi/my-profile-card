@@ -36,6 +36,7 @@ This project not only demonstrates proficiency in modern web development technol
 - Responsive Layout
 - Jest
 - Unit Tests
+- Mermaid Diagrams
 
 ---
 
