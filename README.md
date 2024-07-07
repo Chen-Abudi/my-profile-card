@@ -71,8 +71,18 @@ subgraph Others
   end
 
   subgraph __tests__
-    N[TabButton.test.tsx]
-    O[Tabs.test.tsx]
+    subgraph common
+      N[TabButton.test.tsx]
+    end
+
+    subgraph components
+      subgraph profile
+        subgraph tabs
+          O[Tabs.test.tsx]
+          P[AboutTab.test.tsx]
+        end
+      end
+    end
   end
 end
 
