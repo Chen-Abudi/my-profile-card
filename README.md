@@ -8,7 +8,7 @@
   - [📣 Overview:](#-overview)
   - [🔎 Intro:](#-intro)
   - [🧰 Tech Stack:](#-tech-stack)
-  - [🏗️ Architecture Overview:](#️-architecture-overview)
+  - [🏗️ Architecture Structure:](#️-architecture-structure)
 
 ---
 
@@ -40,7 +40,11 @@ This project not only demonstrates proficiency in modern web development technol
 
 ---
 
-## 🏗️ Architecture Overview:
+<details>
+
+<summary style="font-size: 1.8em;">Project Overview:</summary>
+
+## 🏗️ Architecture Structure:
 
 ```mermaid
 
@@ -88,3 +92,5 @@ flowchart TD
 
 
 ```
+
+</details>
