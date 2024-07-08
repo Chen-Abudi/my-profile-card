@@ -50,7 +50,7 @@ Whether you're exploring frontend development or looking for inspiration in orga
 
 <details>
 
-<summary style="font-size: 1.8em;">🔎 Project Overview:</summary>
+<summary className="text-lg">🔎 Project Overview:</summary>
 
 ## 🏗️ Architecture Structure:
 
