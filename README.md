@@ -8,7 +8,7 @@
   - [📣 Overview:](#-overview)
   - [🔎 Intro:](#-intro)
   - [🧰 Tech Stack:](#-tech-stack)
-  - [🏗️ Architecture Structure:](#️-architecture-structure)
+  - [🏗️ Architecture Structure:](#️--architecture-structure)
 
 ---
 
@@ -47,10 +47,6 @@ Whether you're exploring frontend development or looking for inspiration in orga
 - Mermaid Diagrams
 
 ---
-
-<details>
-
-<summary className="text-lg">🔎 Project Overview:</summary>
 
 ## 🏗️ Architecture Structure:
 
@@ -100,5 +96,3 @@ flowchart TD
 
 
 ```
-
-</details>
