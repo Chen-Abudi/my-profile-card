@@ -60,31 +60,31 @@ flowchart TD
 ```mermaid
 
 flowchart TD
-subgraph Others
   subgraph app
-    J[global.css]
-    K[layout.tsx]
-    L[page.tsx]
+    layout[layout.tsx]
+    page[page.tsx]
+    globalcss[global.css]
   end
 
   subgraph assets
-    M[Image]
+    image[Image]
   end
 
   subgraph __tests__
-    subgraph common
-      N[TabButton.test.tsx]
+    subgraph Common
+      tabbuttontest[TabButton.test.tsx]
     end
 
     subgraph components
       subgraph profile
         subgraph tabs
-          O[Tabs.test.tsx]
-          P[AboutTab.test.tsx]
+          tabstest[Tabs.test.tsx]
+          abouttabtest[AboutTab.test.tsx]
+          experiencetabtest[ExperienceTab.test.tsx]
         end
       end
     end
   end
-end
+
 
 ```
