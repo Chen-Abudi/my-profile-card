@@ -8,7 +8,8 @@
   - [📣 Overview:](#-overview)
   - [🔎 Intro:](#-intro)
   - [🧰 Tech Stack:](#-tech-stack)
-  - [🏗️ Architecture Structure:](#️--architecture-structure)
+  - [🏗️ Architecture Structure:](#️-architecture-structure)
+  - [🧪 Comprehensive Testing:](#-comprehensive-testing)
 
 ---
 
@@ -96,3 +97,23 @@ flowchart TD
 
 
 ```
+
+## 🧪 Comprehensive Testing:
+
+This project ensures reliability and correctness with unit tests using Jest and React Testing Library. Tests cover rendering and interaction for all major components, including dynamic tab navigation and individual tab content.
+
+**Snapshot Testing**
+
+Snapshot testing is used to ensure that the UI components render consistently between updates, preventing unintentional changes.
+
+**Tabs Component**
+
+The `Tabs` component uses snapshot testing to verify its rendering:
+
+- **Initial Snapshot**: Captures the initial rendering of the **_Tabs_** component.
+
+- **State Change Snapshot**: Captures the rendering after switching tabs to ensure the component's UI remains consistent with the expected output.
+
+These tests capture the initial state and subsequent state changes (tab switches) of the **_Tabs_** component.
+
+The snapshots are stored in a **`__snapshots__`** directory and are compared against future test runs to detect unexpected changes in the UI.
