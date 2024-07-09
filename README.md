@@ -72,6 +72,9 @@ flowchart TD
   subgraph app
     layout[layout.tsx]
     page[page.tsx]
+  end
+
+  subgraph styles
     globalcss[global.css]
   end
 
@@ -98,6 +101,8 @@ flowchart TD
 
 ```
 
+---
+
 ## 🧪 Comprehensive Testing:
 
 This project ensures reliability and correctness with unit tests using Jest and React Testing Library. Tests cover rendering and interaction for all major components, including dynamic tab navigation and individual tab content.
@@ -116,4 +121,5 @@ The `Tabs` component uses snapshot testing to verify its rendering:
 
 These tests capture the initial state and subsequent state changes (tab switches) of the **_Tabs_** component.
 
-The snapshots are stored in a **`__snapshots__`** directory and are compared against future test runs to detect unexpected changes in the UI.
+> [!NOTE]
+> The snapshots are stored in a **`__snapshots__`** directory and are compared against future test runs to detect unexpected changes in the UI.
