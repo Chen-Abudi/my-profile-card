@@ -1,0 +1,290 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tabs component matches the snapshot 1`] = `
+<div>
+  <div
+    class="flex justify-center space-x-2 mb-4"
+  >
+    <button
+      class="px-4 py-2 rounded bg-gray-200 text-gray-800"
+    >
+      About Me
+    </button>
+    <button
+      class="px-4 py-2 rounded bg-gray-200 text-gray-800"
+    >
+      Experience
+    </button>
+    <button
+      class="px-4 py-2 rounded bg-gray-200 text-gray-800"
+    >
+      Tech Stack
+    </button>
+    <button
+      class="px-4 py-2 rounded bg-gray-200 text-gray-800"
+    >
+      Contact
+    </button>
+  </div>
+  <div
+    class="p-4 border rounded"
+  />
+</div>
+`;
+
+exports[`Tabs component matches the snapshot after switching tabs 1`] = `
+<div>
+  <div
+    class="flex justify-center space-x-2 mb-4"
+  >
+    <button
+      class="px-4 py-2 rounded bg-gray-200 text-gray-800"
+    >
+      About Me
+    </button>
+    <button
+      class="px-4 py-2 rounded bg-gray-200 text-gray-800"
+    >
+      Experience
+    </button>
+    <button
+      class="px-4 py-2 rounded bg-blue-500 text-white"
+    >
+      Tech Stack
+    </button>
+    <button
+      class="px-4 py-2 rounded bg-gray-200 text-gray-800"
+    >
+      Contact
+    </button>
+  </div>
+  <div
+    class="p-4 border rounded"
+  >
+    <div>
+      <h2
+        class="text-xl font-bold"
+      >
+        Tech Stack
+      </h2>
+      <ul
+        class="list-disc pl-5"
+      >
+        <li>
+          <strong>
+            Programming Languages:
+          </strong>
+          <ul
+            class="list-disc pl-5"
+          >
+            <li>
+              TypeScript
+            </li>
+            <li>
+              JavaScript
+            </li>
+            <li>
+              Java
+            </li>
+            <li>
+              HTML
+            </li>
+            <li>
+              CSS
+            </li>
+            <li>
+              SCSS
+            </li>
+            <li>
+              Sass
+            </li>
+          </ul>
+        </li>
+        <li>
+          <strong>
+            Frontend Frameworks & Libraries:
+          </strong>
+          <ul
+            class="list-disc pl-5"
+          >
+            <li>
+              React
+            </li>
+            <li>
+              Vue.js
+            </li>
+            <li>
+              Next.js
+            </li>
+            <li>
+              Vite
+            </li>
+            <li>
+              TailwindCSS
+            </li>
+            <li>
+              Redux
+            </li>
+          </ul>
+        </li>
+        <li>
+          <strong>
+            Backend Frameworks:
+          </strong>
+          <ul
+            class="list-disc pl-5"
+          >
+            <li>
+              Node.js
+            </li>
+            <li>
+              Express.js
+            </li>
+            <li>
+              Spring
+            </li>
+            <li>
+              Spring Boot
+            </li>
+          </ul>
+        </li>
+        <li>
+          <strong>
+            Databases:
+          </strong>
+          <ul
+            class="list-disc pl-5"
+          >
+            <li>
+              SQL & NoSQL
+            </li>
+            <li>
+              PostgreSQL
+            </li>
+            <li>
+              MongoDB
+            </li>
+            <li>
+              Firebase
+            </li>
+            <li>
+              SQLite
+            </li>
+          </ul>
+        </li>
+        <li>
+          <strong>
+            DevOps & CI/CD:
+          </strong>
+          <ul
+            class="list-disc pl-5"
+          >
+            <li>
+              Docker
+            </li>
+          </ul>
+        </li>
+        <li>
+          <strong>
+            Version Control:
+          </strong>
+          <ul
+            class="list-disc pl-5"
+          >
+            <li>
+              Git
+            </li>
+            <li>
+              GitHub
+            </li>
+            <li>
+              GitLab
+            </li>
+          </ul>
+        </li>
+        <li>
+          <strong>
+            Design Tools:
+          </strong>
+          <ul
+            class="list-disc pl-5"
+          >
+            <li>
+              Figma
+            </li>
+            <li>
+              Canva
+            </li>
+          </ul>
+        </li>
+        <li>
+          <strong>
+            Testing Tools:
+          </strong>
+          <ul
+            class="list-disc pl-5"
+          >
+            <li>
+              Jest
+            </li>
+            <li>
+              JUnit
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Tabs component matches the snapshot after switching tabs 2`] = `
+<div>
+  <div
+    class="flex justify-center space-x-2 mb-4"
+  >
+    <button
+      class="px-4 py-2 rounded bg-gray-200 text-gray-800"
+    >
+      About Me
+    </button>
+    <button
+      class="px-4 py-2 rounded bg-gray-200 text-gray-800"
+    >
+      Experience
+    </button>
+    <button
+      class="px-4 py-2 rounded bg-gray-200 text-gray-800"
+    >
+      Tech Stack
+    </button>
+    <button
+      class="px-4 py-2 rounded bg-blue-500 text-white"
+    >
+      Contact
+    </button>
+  </div>
+  <div
+    class="p-4 border rounded"
+  >
+    <div>
+      <h2
+        class="text-xl font-bold text-blue-700"
+      >
+        Contact
+      </h2>
+      <p>
+        If you have any questions or would like to collaborate on a project, please feel free to reach out to me. You can find me on various social media platforms, including GitHub, LinkedIn, and Medium. Additionally, you can email me at
+         
+        <a
+          class="font-medium text-blue-900 hover:text-blue-500"
+          href="mailto:cheezumcali23@gmail.com"
+        >
+          GMail
+        </a>
+        .
+      </p>
+    </div>
+  </div>
+</div>
+`;
