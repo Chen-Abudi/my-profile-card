@@ -44,7 +44,9 @@ Whether you're exploring frontend development or looking for inspiration in orga
 - TailwindCSS
 - Responsive Layout
 - Jest
+- React Testing Library
 - Unit Tests
+- Sanpshot Testing
 - Mermaid Diagrams
 
 ---
