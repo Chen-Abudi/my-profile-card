@@ -88,11 +88,14 @@ flowchart TD
     end
 
     subgraph components
-      subgraph profile
-        subgraph tabs
-          tabstest[Tabs.test.tsx]
-          abouttabtest[AboutTab.test.tsx]
-          experiencetabtest[ExperienceTab.test.tsx]
+      subgraph __snapshots__
+        tabstestsnap[Tabs.test.tsx.snap]
+        subgraph profile
+          subgraph tabs
+            tabstest[Tabs.test.tsx]
+            abouttabtest[AboutTab.test.tsx]
+            experiencetabtest[ExperienceTab.test.tsx]
+            end
         end
       end
     end
