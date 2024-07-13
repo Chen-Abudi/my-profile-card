@@ -228,6 +228,9 @@ exports[`Tabs component matches the snapshot after switching tabs 1`] = `
               Jest
             </li>
             <li>
+              React Testing Library
+            </li>
+            <li>
               JUnit
             </li>
           </ul>
