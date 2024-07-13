@@ -72,6 +72,7 @@ const TechStackTab: React.FC = () => {
           <strong>Testing Tools:</strong>
           <ul className="list-disc pl-5">
             <li>Jest</li>
+            <li>React Testing Library</li>
             <li>JUnit</li>
           </ul>
         </li>
