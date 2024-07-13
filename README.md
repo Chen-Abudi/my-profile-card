@@ -42,11 +42,11 @@ Whether you're exploring frontend development or looking for inspiration in orga
 - NextJS
 - TypeScript
 - TailwindCSS
-- Responsive Layout
+- Unit Tests
 - Jest
 - React Testing Library
-- Unit Tests
-- Sanpshot Testing
+- Sanpshot Tests
+- Responsive Layout
 - Mermaid Diagrams
 
 ---
