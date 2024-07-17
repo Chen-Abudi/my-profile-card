@@ -41,6 +41,7 @@ Whether you're exploring frontend development or looking for inspiration in orga
 
 - NextJS
 - TypeScript
+- JavaScript
 - TailwindCSS
 - Unit Tests
 - Jest
@@ -99,6 +100,7 @@ flowchart TD
             abouttabtest[AboutTab.test.tsx]
             experiencetabtest[ExperienceTab.test.tsx]
             techstacktest[TechStack.test.tsx]
+            contacttabtest[ContactTab.test.tsx]
           end
         end
       end
