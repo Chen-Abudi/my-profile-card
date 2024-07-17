@@ -56,4 +56,10 @@ describe("ContactTab", () => {
       "hover:text-blue-500"
     );
   });
+
+  it("should match the snapshot", () => {
+    const { asFragment } = component;
+
+    expect(asFragment()).toMatchSnapshot();
+  });
 });
