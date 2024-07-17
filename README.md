@@ -57,15 +57,17 @@ Whether you're exploring frontend development or looking for inspiration in orga
 ```mermaid
 
 flowchart TD
-  A[HomePage] -->|imports| B[ProfileCard]
-  B -->|imports| C[tabs]
-  C -->|imports| D[Tabs]
-  C -->|imports| E[AboutTab]
-  C -->|imports| F[ExperienceTab]
-  C -->|imports| G[TechStackTab]
-  C -->|imports| H[ContactTab]
-  B -->|imports| I[common]
-  I -->|imports| J[TabButton]
+  A[HomePage] -->|imports| B[components]
+  B -->|imports| C[profile]
+  C -->|imports| D[ProfileCard]
+  D -->|imports| E[tabs]
+  E -->|imports| F[Tabs]
+  E -->|imports| G[AboutTab]
+  E -->|imports| H[ExperienceTab]
+  E -->|imports| I[TechStackTab]
+  E -->|imports| J[ContactTab]
+  B -->|imports| K[common]
+  K -->|imports| L[TabButton]
 
 ```
 
