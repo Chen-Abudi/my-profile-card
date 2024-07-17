@@ -65,7 +65,7 @@ flowchart TD
   C -->|imports| G[TechStackTab]
   C -->|imports| H[ContactTab]
   B -->|imports| I[common]
-  H -->|imports| J[TabButton]
+  I -->|imports| J[TabButton]
 
 ```
 
