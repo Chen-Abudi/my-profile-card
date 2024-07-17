@@ -94,6 +94,7 @@ flowchart TD
       subgraph __snapshots__
         tabstestsnap[Tabs.test.tsx.snap]
         techstacksnap[TechStack.test.tsx.snap]
+        contacttabtestsnap[ContactTab.test.tsx.snap]
         subgraph profile
           subgraph tabs
             tabstest[Tabs.test.tsx]
