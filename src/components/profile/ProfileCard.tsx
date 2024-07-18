@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
 
-import Tabs from "./tabs/Tabs";
 import myImg from "@/assets/Me.jpeg";
+import Tabs from "./tabs/Tabs";
 
 const ProfileCard: React.FC = () => {
   return (
@@ -15,6 +15,8 @@ const ProfileCard: React.FC = () => {
             className="relative object-cover object-center rounded-full w-fit h-60 mt-6 text-gray-700 bg-white shadow-md bg-clip-border"
             alt="My profile photo"
             src={myImg}
+            width={100}
+            height={100}
             priority
           />
           <div className="flex flex-col items-center m-4">
